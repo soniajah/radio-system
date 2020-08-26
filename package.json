@@ -1,0 +1,23 @@
+{
+    "name": "motorola-radio-system",
+    "version": "1.0.0",
+    "description": "A simple service for handling of devices in a radio system.",
+    "author": "Jaheda Begum",
+    "main": "server.js",
+    "scripts": {
+        "test": "istanbul cover node_modules/mocha/bin/_mocha test/**/*.spec.js",
+        "start": "node ./src/server.js"
+    },
+    "dependencies": {
+        "body-parse": "^0.1.0",
+        "body-parser": "*",
+        "express": "^4.17.1",
+        "mongoose": "^5.10.0"
+    },
+    "devDependencies": {
+        "istanbul": "^0.4.5",
+        "mocha": "^8.1.2",
+        "chai": "*",
+        "chai-http": "*"
+    }
+}

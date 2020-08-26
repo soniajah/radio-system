@@ -1,0 +1,3 @@
+{
+    "db": "mongodb://<user>:<password>@<dbid>.mlab.com:<id>/radiosystem"
+}
