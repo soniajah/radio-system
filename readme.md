@@ -1,5 +1,31 @@
 ## A simple service for handling of devices in a radio system. 
 
+# Getting started
+
+Update the ./src/config.json file with your MongoDB credentials.
+## Docker file
+
+Create a docker image
+```
+docker build -t radiosystemapp .
+```
+Run the server from the docker image
+```
+docker run -d -p  3000:3000 radiosystemapp
+```
+
+Create docker image for unit testing
+```
+docker build -t radiosystemtest -f .\Dockerfile.test .
+```
+Run the server from the docker image
+```
+docker run -d -p  3000:3000 radiosystemtest
+```
+
+
+# MongoDB schema
+
 A device profile is a record containing the following information (example):
 ```javascript
 {
