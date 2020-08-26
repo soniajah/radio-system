@@ -3,7 +3,7 @@
 # Getting started
 
 Update the ./src/config.json file with your MongoDB credentials.
-## Docker file
+## Docker 
 
 Create a docker image
 ```
