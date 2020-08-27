@@ -16,7 +16,7 @@ docker run -d -p  3000:3000 radiosystemapp
 
 Create docker image for unit testing
 ```
-docker build -t radiosystemtest -f .\Dockerfile.test .
+docker build -t radiosystemtest -f Dockerfile.test .
 ```
 Run the server from the docker image
 ```
